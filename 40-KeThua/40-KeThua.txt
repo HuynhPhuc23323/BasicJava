@@ -1,0 +1,3 @@
+Kế thừa là khả năng thừa hưởng lại những biến và hàm của một class khác (class MeoAnhLongDai kế thừa từ class Meo)
+Class kế thừa gọi là subclass (class con). Class được kế thừa là superclass (lớp cha)
+Superclass có nhiều subclass. Subclass chỉ có duy nhất 1 superclass (đơn kế thưa nhưng có thể kế thừa kế tiếp nhau). => keyword Extends
