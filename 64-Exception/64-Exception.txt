@@ -1,0 +1,14 @@
+Exception là một lỗi xảy ra trong quá trình chạy code Java, làm chương trình
+dừng lại đột ngột
+Nên tránh Exception trong thực tế để tránh bị dừng chương trình
+Có 3 loại Exception:
+	- Checked Ex: Có thể biết trước ở compile time
+	- Unchecked Ex: không thể doán trước được
+	- Errors: là lỗi của máy ảo, hoặc thiếu bộ nhớ. Không thể fix lỗi này 
+	trong code
+
+Object => Throwable :
+	- Errors
+	- Exceptions:
+		+ Runtime Exceptions
+		+ Other Exceptions

@@ -1,0 +1,16 @@
+package milliwatt.phuc.thread;
+
+public class Main {
+
+	public static void main(String[] args) {
+		MyThread1 my1 = new MyThread1();
+		Thread t = new Thread(my1);
+		
+		//Thread 2
+		MyThread2 my2 = new MyThread2();
+		
+		t.start();
+		my2.start();
+	}
+	
+}

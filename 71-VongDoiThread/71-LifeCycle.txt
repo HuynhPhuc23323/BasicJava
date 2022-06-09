@@ -1,0 +1,10 @@
+New->Runnable(start())->Running -> Terminated (run() method exits)
+
+Hoặc từ 
+Vong lap {
+	Running 
+	-> Non-Runnable {blocked} (sleep, block on I/O, wait for lock, suspend,wait) 
+	-> runnable (sleep done, I/O complete, lock available, resume, notify)
+	->Running
+}
+->Terminated
