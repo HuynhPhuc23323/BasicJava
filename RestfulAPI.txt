@@ -1,0 +1,25 @@
+API là gì
+-> có thể hiểu là một ứng dụng giao tiếp với db thông qua giao thức nào đấy để
+trả về cho frontend (API web, API desktop,...)
+Ví dụ:
+{
+	"status_code": 200,
+	"data":{
+		"mssv": "123",
+		"ten": "nguyen van a,
+		"lop": "ST"
+	},
+	error_messages: ""
+}
+
+
+REST là gì
+-> là giao thức trao đổi số (kiểu kiến trúc, hay tiêu chuẩn để giao tiếp giữa các
+máy tính
+
+RESTful API là gì
+-> là tiêu chuẩn dùng trong việc thiết kế các API để quản lý các resource
+GET -> lấy dữ liệu (select)
+POST -> create, tạo một resource mới
+PUT -> update
+DELETE -> delete
